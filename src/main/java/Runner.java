@@ -5,5 +5,9 @@ public class Runner {
         // Java is statically typed
 
         Cat cat = new Cat();
+
+        String message = cat.meow();
+
+        System.out.println(message);
     }
 }
